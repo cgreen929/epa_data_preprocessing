@@ -2,7 +2,7 @@
 ## Introduction
 This guide will walk you through the steps required to use the scripts in this repository to create a complete hourly set of PM2.5 data for your desired location and time span, using data downloaded from the [EPA Air Quality](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Raw) repository. Initially, the scripts use linear interpolation to fill data gaps less than 4 hours in duration. Then, for gaps greater than 4 hours, data is sourced from the nearest available weather stations to complete your dataset. Leap year days are removed to create an 8760 hour dataset for each year.
 
-Currently, only PM2.5 data is supported, but future versions will allow for handling of other air quality parameters. It is also pretty slow, and future updates will aim to increase the speed.
+Currently, only PM2.5 data is supported, but future versions will allow for handling of other air quality parameters. It is also slow, and future updates will aim to increase the speed.
 ## 1. Requirements
 You will need the following packages:
 - [pandas](https://pypi.org/project/pandas/)
