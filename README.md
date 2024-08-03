@@ -10,7 +10,7 @@ You will need the following packages:
 - [geopy](https://pypi.org/project/geopy/) - Calculating distance
 ## 2. Usage Instructions
 #### 2.1 Retrieve data
-To begin, download the annual hourly PM2.5 data you are interested in [here](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Raw), along with the data for the previous year (e.g., if you want to complete a dataset from 2018, also include the data from 2017 in your directory). Place these files in the "hourly_data" folder.
+To begin, download the annual hourly PM2.5 data you are interested in [here](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Raw), along with the data for the previous year (e.g., if you want to complete a dataset from 2018, also include the data from 2017 in your directory). Replace _test.csv_ in the _hourly_data_ folder with these files.
 #### 2.2 Create target sites CSV
 Create a CSV file following the template in target_sites.csv, using the coordinates for your city/cities of interest. The example file contains information for a weather station in San Francisco, CA; you may replace this information and/or add subsequent rows for additional cities. This list will be used to identify the primary station 
 #### 2.3 Fill the data
